@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CameraPreviewService/CameraPreviewService.iml" filepath="$PROJECT_DIR$/CameraPreviewService/CameraPreviewService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UsbCameraService.iml" filepath="$PROJECT_DIR$/UsbCameraService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/camerapreviewclient/camerapreviewclient.iml" filepath="$PROJECT_DIR$/camerapreviewclient/camerapreviewclient.iml" />
+    </modules>
+  </component>
+</project>

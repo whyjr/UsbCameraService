@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <edu.hfut.camerapreviewservice.preview.CameraPreview
+            android:id="@+id/cf_frame_camera_sv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/private_cf_frame_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="40dp"
+            android:background="@drawable/face_surface2" />
+
+        <TextView
+            android:id="@+id/cf_tips_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/private_cf_frame_iv"
+            android:gravity="center"
+            android:text="请将正脸置于正方形内"
+            android:textColor="#DC143C"
+            android:textSize="20sp" />
+
+    </RelativeLayout>

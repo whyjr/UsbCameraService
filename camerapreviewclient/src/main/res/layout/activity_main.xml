@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.hfut.camerapreviewclient.Client">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="左顶点坐标x:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/left_top_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="px"
+                android:inputType="number"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="左顶点坐标y:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/left_top_y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="px"
+                android:inputType="number"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="视频预览宽w:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/preview_width"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="px"
+                android:inputType="number"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="视频预览高h:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/preview_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="px"
+                android:inputType="number"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="open"
+            android:text="开"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="close"
+            android:text="关"
+            android:textSize="20sp" />
+
+        <Switch
+            android:layout_marginLeft="50dp"
+            android:id="@+id/is_draggable_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:showText="true"
+            android:textOff="关"
+            android:textOn="开" />
+
+    </LinearLayout>
+
+</LinearLayout>
